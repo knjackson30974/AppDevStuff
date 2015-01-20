@@ -102,9 +102,13 @@ public class BlankFragment extends Fragment implements OnClickListener {
                              {
 
                                  if(on){
-                                 textView2.setText("You clicked the toggle");
-                                 Log.d("KJTEST","The toggle is clicked");
+                                 textView2.setText("The toggle is on");
+                                 Log.d("KJTEST","The toggle is on");
                                      }
+                                 else{
+                                     textView2.setText("The toggle is off");
+                                     Log.d("KJTEST","The toggle is off");
+                                 }
                                  break;
                              }
                          }
